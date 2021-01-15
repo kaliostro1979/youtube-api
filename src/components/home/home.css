@@ -1,0 +1,27 @@
+
+
+
+.video_cover{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.video_cover iframe{
+    width: 100%;
+}
+
+.title{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #9c9c9c;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    text-shadow: 0 0 0 #9c9c9c;
+    min-height: 47px;
+    max-height: 47px;
+}
